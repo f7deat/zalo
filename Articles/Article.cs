@@ -69,9 +69,15 @@ public class ArticleDetail
 public class ArticleBody
 {
     [JsonPropertyName("type")]
-    public string Type { get; set; } = "text";
+    public string Type { get; set; } = BodyType.Text;
     [JsonPropertyName("content")]
-    public string Content { get; set; } = default!;
+    public string? Content { get; set; }
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+    [JsonPropertyName("caption")]
+    public string? Caption { get; set; }
+    [JsonPropertyName("thumb")]
+    public string? Thumbnail { get; set; }
 }
 
 public class ArticleCite
@@ -80,4 +86,12 @@ public class ArticleCite
     public string? Url { get; set; }
     [JsonPropertyName("label")]
     public string? Label { get; set; }
+}
+
+public class BodyType
+{
+    public const string Text = "text";
+    public const string Image = "image";
+    public const string Video = "video";
+    public const string Product = "product";
 }

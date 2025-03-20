@@ -96,4 +96,4 @@ var result = zaloClient.SendRequestMessage("your_access_token", "your_recipient_
 
 `dotnet pack -c Release`
 
-`dotnet nuget push bin/Release/ZaloSDK.1.0.0.nupkg --api-key YOUR_API_KEY --source https://api.nuget.org/v3/index.json`
+`dotnet nuget push bin/Release/ZaloSDK.1.0.1.nupkg --api-key YOUR_API_KEY --source https://api.nuget.org/v3/index.json`
