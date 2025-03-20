@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZaloSDK", "ZaloSDK.csproj", "{8363E1A9-2A77-46BE-9416-4DA0A295A4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "..\Playground\Playground.csproj", "{2FC606F5-41F2-4221-8019-7552EEA9F57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8363E1A9-2A77-46BE-9416-4DA0A295A4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8363E1A9-2A77-46BE-9416-4DA0A295A4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8363E1A9-2A77-46BE-9416-4DA0A295A4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8363E1A9-2A77-46BE-9416-4DA0A295A4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC606F5-41F2-4221-8019-7552EEA9F57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC606F5-41F2-4221-8019-7552EEA9F57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC606F5-41F2-4221-8019-7552EEA9F57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC606F5-41F2-4221-8019-7552EEA9F57F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
